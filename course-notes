@@ -1,0 +1,29 @@
+webpack - optimises/compacts code
+babel - 
+
+manifest - can use offline
+
+component - code that returns UI (visual)
+
+React - functions that return HTML
+
+render- returning UI - 
+re-rendering - updates any changes 
+
+jsx - extended js - allows use of HTML 
+
+class components
+functional components
+
+hard coded - nothing dynamic. 
+
+Constructor - always use Super to call - initialise data - 1st to run in react 
+this.state - always an object
+this.setState - re-renders original object (shallow merge)
+
+this.state - object - use key (id) to differentiate 
+
+jsonplaceholder.typicode.com/users
+
+componentdidMount - when react renders component
+fetch - grab API
