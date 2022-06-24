@@ -1,7 +1,9 @@
 import { Component } from 'react';
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import SearchBox from './components/card-list/search-box/search-box.component';
 import CardList from './components/card-list/card-list.component';
+import Card from './components/card/card.component';
 import logo from './logo.svg';
 import './App.css';
 
@@ -45,11 +47,11 @@ class App extends Component {
     return (
     <div className="App">
     
-
+      <h1 className='app-title'>Monsters Rolodex</h1>
       <SearchBox 
       onChangeHandler={onSearchChange} 
       placeholder='search monsters' 
-      className='search-box' />
+      className='monsters-search-box' />
       
       <CardList monsters={filteredMonsters} />
     </div>

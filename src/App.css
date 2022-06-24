@@ -7,9 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(
-    to-l,
+    to left,
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
   text-align: center;
+}
+
+.app-title {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-family: fantasy;
+  font-size: 60px;
+  color: #0ccac4;
+  
 }
